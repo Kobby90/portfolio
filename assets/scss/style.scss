@@ -146,6 +146,7 @@ h7 {
 	top: 1;
 	right: 1;
 	background: rgba(1, 0, 0, 0.9);
+	z-index: 999;
 	.social-links {
 		display: none;
 	}
@@ -262,6 +263,8 @@ h7 {
 	position: fixed;
 	right: 16px;
 	top: 16px;
+	z-index: 999;
+	
 }
 .navbar-container {
     position: relative;
@@ -282,6 +285,7 @@ h7 {
 		position: absolute;
 		top: 16px;
 		right: 16px;
+		z-index: 999;
 	}
 	ul {
 		display: block;

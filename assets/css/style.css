@@ -270,6 +270,11 @@ body {
   /*
   * Mobile Navigation 
   */
+  .navbar-container {
+    position: relative;
+    z-index: 10000; /* Increase the z-index to ensure it stays on top */
+  }
+
   .mobile-nav-toggle {
     color: #ffffff;
     font-size: 28px;
@@ -280,6 +285,7 @@ body {
     position: fixed;
     right: 15px;
     top: 15px;
+    z-index: 1000;
   }
   
   @media (max-width: 991px) {
@@ -301,7 +307,7 @@ body {
     bottom: 0;
     background: rgba(0, 0, 0, 0.9);
     transition: 0.3s;
-    z-index: 9999; /* Increase the z-index to ensure it stays on top */
+    z-index: 1000; /* Increase the z-index to ensure it stays on top */
     margin-top: 0;
   }
   
@@ -338,11 +344,6 @@ body {
     position: relative;
   }
 
-  .navbar-container {
-    position: relative;
-    z-index: 9999; /* Increase the z-index to ensure it stays on top */
-  }
-  
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
