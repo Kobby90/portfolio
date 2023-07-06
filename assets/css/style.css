@@ -137,7 +137,7 @@ body {
   
     #header .container {
       display: flex;
-      background: rgba(85, 85, 85, 0.1);
+      background: #04040477;
       height: 370px; 
       flex-direction: column;
       align-items: center;
