@@ -137,6 +137,8 @@ body {
   
     #header .container {
       display: flex;
+      background: rgba(126, 126, 126, 0.1);
+      height: 270px; 
       flex-direction: column;
       align-items: center;
     }
@@ -263,7 +265,7 @@ body {
   * Mobile Navigation 
   */
   .mobile-nav-toggle {
-    color: #fff;
+    color: #ffffff;
     font-size: 28px;
     cursor: pointer;
     display: none;
