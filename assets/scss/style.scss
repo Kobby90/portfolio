@@ -263,6 +263,10 @@ h7 {
 	right: 16px;
 	top: 16px;
 }
+.navbar-container {
+    position: relative;
+    z-index: 9999; /* Increase the z-index to ensure it stays on top */
+  }
 .navbar-mobile {
 	position: fixed;
 	overflow: hidden;
@@ -272,7 +276,7 @@ h7 {
 	bottom: 1;
 	background: rgba(1, 0, 0, 0.9);
 	transition: 1.3s;
-	z-index: 1000;
+	z-index: 9999; /* Increase the z-index to ensure it stays on top */
 	margin-top: 1;
 	.mobile-nav-toggle {
 		position: absolute;

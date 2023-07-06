@@ -55,7 +55,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    z-index: 9999; /* Increase the z-index to ensure it stays on top */
+    z-index: 998; /* Increase the z-index to ensure it stays on top */
     overflow-y: auto;
   }
   
@@ -301,7 +301,7 @@ body {
     bottom: 0;
     background: rgba(0, 0, 0, 0.9);
     transition: 0.3s;
-    z-index: 999;
+    z-index: 9999; /* Increase the z-index to ensure it stays on top */
     margin-top: 0;
   }
   
@@ -340,7 +340,7 @@ body {
 
   .navbar-container {
     position: relative;
-    z-index: 998;
+    z-index: 9999; /* Increase the z-index to ensure it stays on top */
   }
   
   /*--------------------------------------------------------------
